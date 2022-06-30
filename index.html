@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <div class="container flex-box">
+      <h1>Contador</h1>
+      <p>Clique nos botões para alterar o valor</p>
+      <div class="contador flex-box">
+        <span id="currentNumber">0</span>
+
+        <div class="botoes">
+          <button name="subtrair" onclick="decrement()">-</button>
+          <button name="adicionar" onclick="increment()">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/scripts.js"></script>
+</html>
